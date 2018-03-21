@@ -15,7 +15,7 @@
         <EntityTypeShape EntityType="CommunityAssist2017Model.GrantType" Width="1.5" PointX="3.75" PointY="21.75" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.LoginHistory" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.Person" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
-        <EntityTypeShape EntityType="CommunityAssist2017Model.PersonAddress" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommunityAssist2017Model.PersonAddress" Width="2.5" PointX="3" PointY="17.75" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.Position" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
         <AssociationConnector Association="CommunityAssist2017Model.FK__Donation__Person__3A81B327" ManuallyRouted="false" />
         <AssociationConnector Association="CommunityAssist2017Model.FK__Employee__Person__300424B4" ManuallyRouted="false" />

@@ -29,10 +29,10 @@ namespace CommunityAssistMVC2018.Controllers
             int result = db.usp_Register(p.LastName, p.FirstName, p.Email,p.PlainPassword,p.Apartment,p.Street,p.City,p.State,p.Zipcode,p.Phone);
             if(result !=-1)
             {
-                return RedirectToAction("ThankYou");
+                return RedirectToAction("Index");
             }
 
-            return View(p);
+            return View();
         }
 
 

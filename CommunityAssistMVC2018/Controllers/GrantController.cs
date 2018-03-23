@@ -21,6 +21,7 @@ namespace CommunityAssistMVC2018.Controllers
                 return RedirectToAction("Result", msg);
 
             }
+            ViewBag.GrantTypeKey = new SelectList(db.GrantTypes, "GrantTypeKey", "GrantTypeName");
             return View();
         }
         [HttpPost]
